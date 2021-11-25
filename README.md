@@ -1,0 +1,2 @@
+# qryptic-qt
+Qryptic Qt
