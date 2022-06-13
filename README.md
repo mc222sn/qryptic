@@ -1,4 +1,4 @@
-# Qryptic API 
+# Qryptic 
  
 ![alt text](qryptic-logo.png "Qryptic")
 
