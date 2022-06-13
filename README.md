@@ -3,7 +3,7 @@
 ![alt text](qryptic-logo.png "Qryptic")
 
 ## About
-Qryptic is desktop client to retrieve data about crypto currencies, crypto wallets and crypto exchanges. 
+Qryptic is a desktop client to get real time market data of different crypto currencies.
 
 ## Technologies
 
