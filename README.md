@@ -3,15 +3,17 @@
 ![alt text](qryptic-logo.png "Qryptic")
 
 ## About
-Qryptic is an open API to retrieve data about crypto currencies, crypto wallets and crypto exchanges. 
+Qryptic is desktop client to retrieve data about crypto currencies, crypto wallets and crypto exchanges. 
 
 ## Technologies
 
 The API is built using:
 
 - C++17
+- CMake
 - Qt 6
 - QML
+- Boost
 
 ## How to use
 
