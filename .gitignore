@@ -73,3 +73,5 @@ Thumbs.db
 
 src/qryptic/build/
 
+# jetbrains clion
+.idea
