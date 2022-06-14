@@ -23,18 +23,18 @@ Rectangle {
     }
 
     Column {
-        id: column_01
+        id: navbar
         x: 8
-        y: 217
-        width: 263
-        height: 863
+        y: 132
+        width: 119
+        height: 940
     }
 
     Column {
-        id: column_02
-        x: 283
+        id: content
+        x: 143
         y: 8
-        width: 1629
+        width: 1769
         height: 1064
     }
 
@@ -46,8 +46,8 @@ Rectangle {
             id: column
             x: 0
             y: 0
-            width: 263
-            height: 185
+            width: 116
+            height: 112
         }
 
         Image {
@@ -60,6 +60,16 @@ Rectangle {
             mipmap: true
             fillMode: Image.PreserveAspectFit
         }
+    }
+
+    Image {
+        id: image1
+        x: 39
+        y: 132
+        width: 56
+        height: 74
+        source: "../../../Desktop/tray-icon-dark@2x.png"
+        fillMode: Image.PreserveAspectFit
     }
 }
 
