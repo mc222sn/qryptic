@@ -14,6 +14,7 @@ The API is built using:
 - Qt 6
 - QML
 - Boost
+- Google Test
 
 ## How to use
 
@@ -48,4 +49,4 @@ ETH: 0x03A049028B673Cc5EF676695f442eC5614877335
 
 ## License
 
-The license is GNU GENERAL PUBLIC LICENSE Version 3.
+The license is GPLv3.
