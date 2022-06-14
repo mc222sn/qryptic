@@ -32,14 +32,14 @@ import QtQuick.Window
 import Qryptic
 
 Window {
-    width: mainScreen.width
-    height: mainScreen.height
+    width: homeScreen.width
+    height: homeScreen.height
 
     visible: true
     title: "Qryptic"
 
-    Screen01 {
-        id: mainScreen
+    ScreenHome {
+        id: homeScreen
     }
 
 }
