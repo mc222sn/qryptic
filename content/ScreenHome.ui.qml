@@ -126,24 +126,24 @@ Rectangle {
     }
 
     Rectangle {
-        id: rectangle1
+        id: home_r01
         x: 143
         y: 127
-        width: 377
-        height: 156
+        width: 285
+        height: 125
         color: "#00ffffff"
 
         RectangleItem {
-            id: box
+            id: home_b01_border
             x: 0
             y: 0
-            width: 377
-            height: 156
+            width: 285
+            height: 124
             opacity: 0.193
             borderMode: 2
             strokeWidth: 1
-            fillColor: "#00ffffff"
-            strokeColor: "#b6b6b6"
+            fillColor: "#81460101"
+            strokeColor: "#aa0000"
         }
 
         Image {
@@ -157,10 +157,10 @@ Rectangle {
         }
 
         Text {
-            id: text3
+            id: pair
             x: 92
             y: 13
-            width: 277
+            width: 193
             height: 48
             color: "#dbdbdb"
             text: "XMR USDT"
@@ -171,7 +171,7 @@ Rectangle {
         }
 
         Text {
-            id: text4
+            id: price
             x: 8
             y: 76
             width: 177
@@ -185,12 +185,12 @@ Rectangle {
         }
 
         Text {
-            id: text5
+            id: percentage
             x: 196
             y: 76
-            width: 173
+            width: 89
             height: 48
-            color: "#dbdbdb"
+            color: "#aa0000"
             text: "-4.5%"
             font.letterSpacing: 2
             font.pixelSize: 30
@@ -198,11 +198,80 @@ Rectangle {
             font.family: "Teko Light"
         }
     }
+
+    Rectangle {
+        id: home_r1
+        x: 443
+        y: 127
+        width: 285
+        height: 125
+        color: "#00ffffff"
+        RectangleItem {
+            id: home_b01_border1
+            x: 0
+            y: 0
+            width: 285
+            height: 124
+            opacity: 0.193
+            strokeColor: "#0faa00"
+            strokeWidth: 1
+            fillColor: "#7d085d00"
+            borderMode: 2
+        }
+
+        Image {
+            id: moneroxmrlogo1
+            x: 8
+            y: 8
+            width: 50
+            source: "icons/cryptocurrencies/kryptokrona-xkr-logo.svg"
+            fillMode: Image.PreserveAspectFit
+            mipmap: true
+        }
+
+        Text {
+            id: pair1
+            x: 92
+            y: 13
+            width: 193
+            height: 48
+            color: "#dbdbdb"
+            text: "XKR USDT"
+            font.letterSpacing: 2.1
+            font.pixelSize: 30
+            font.family: "Teko Medium"
+            font.weight: Font.Light
+        }
+
+        Text {
+            id: price1
+            x: 8
+            y: 76
+            width: 177
+            height: 48
+            color: "#dbdbdb"
+            text: "$0.00018900"
+            font.letterSpacing: 2
+            font.pixelSize: 30
+            font.family: "Teko Light"
+            font.weight: Font.Light
+        }
+
+        Text {
+            id: percentage1
+            x: 196
+            y: 76
+            width: 89
+            height: 48
+            color: "#0faa00"
+            text: "4.5%"
+            font.letterSpacing: 2
+            font.pixelSize: 30
+            font.family: "Teko Light"
+            font.weight: Font.Light
+        }
+    }
 }
 
-/*##^##
-Designer {
-    D{i:0;formeditorZoom:0.75}D{i:2}D{i:16}D{i:17}
-}
-##^##*/
+
 
