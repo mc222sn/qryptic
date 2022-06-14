@@ -72,7 +72,7 @@ Rectangle {
     }
 
     Image {
-        id: image1
+        id: hugin
         x: 30
         y: 531
         width: 38
@@ -86,7 +86,7 @@ Rectangle {
     }
 
     Image {
-        id: candlestick_chart_white_48dp
+        id: charts
         x: 27
         y: 480
         source: "icons/bar-chart-2.svg"
@@ -99,7 +99,7 @@ Rectangle {
     }
 
     Image {
-        id: home_white_48dp
+        id: home
         x: 30
         y: 427
         width: 38
@@ -119,7 +119,7 @@ Rectangle {
     }
 
     Text {
-        id: text1
+        id: cryptocurrencies
         x: 143
         y: 15
         width: 297
@@ -136,7 +136,7 @@ Rectangle {
     }
 
     Text {
-        id: text2
+        id: version
         x: 9
         y: 1039
         width: 81
@@ -1020,7 +1020,7 @@ Rectangle {
     }
 
     Text {
-        id: text3
+        id: exchanges
         x: 143
         y: 408
         width: 297
@@ -1037,7 +1037,7 @@ Rectangle {
     }
 
     Text {
-        id: text4
+        id: by_volume
         x: 145
         y: 456
         width: 154
@@ -1922,12 +1922,25 @@ Rectangle {
             font.weight: Font.Light
         }
     }
+
+    Image {
+        id: charts1
+        x: 28
+        y: 583
+        source: "icons/settings.svg"
+        sourceSize.height: 42
+        antialiasing: false
+        sourceSize.width: 42
+        fillMode: Image.PreserveAspectFit
+        mipmap: true
+        mirror: false
+    }
 }
 
 /*##^##
 Designer {
     D{i:0;formeditorZoom:0.9}D{i:22}D{i:31}D{i:40}D{i:49}D{i:58}D{i:67}D{i:76}D{i:85}
 D{i:94}D{i:103}D{i:104}D{i:105}D{i:114}D{i:123}D{i:132}D{i:141}D{i:150}D{i:159}D{i:168}
-D{i:177}D{i:186}
+D{i:177}D{i:186}D{i:195}
 }
 ##^##*/
