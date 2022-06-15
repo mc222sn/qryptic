@@ -4,6 +4,28 @@
 
 Qryptic is a desktop client to get real time market data of different crypto currencies.
 
+## Table of Contents
+
+- [Development resources](#development-resources)
+- [Technologies](#technologies)
+- [Translations](#translations)
+- [Compiling Qryptic from source](#compiling-qryptic-from-source)
+    - [Dependencies](#dependencies)
+- [Contribute](#contribute)
+    - [Pull Request](#pull-request)
+    - [Donate](#donate)
+- [Contributors](#contributors)
+- [License](#license)
+
+
+## Development Resources
+
+- Web: qryptic.net
+- Mail: mjovanc@protonmail.com
+- GitHub: https://github.com/qryptic/qryptic
+- Hugin: qryptic channel on Hugin Messenger
+- It is HIGHLY recommended to join our channel on Hugin Messenger if you want to contribute to stay up to date on what is happening on the project.
+
 ## Technologies
 
 The API is built using:
@@ -15,7 +37,42 @@ The API is built using:
 - Boost
 - Google Test
 
-## How to use
+## Translations
+
+If you are interested in doing some translations for our application, please join our Hugin channel and talk to us. See more information in the [Development Resources](#development-resources) section.
+
+## Compiling Qryptic from source
+
+### Dependencies
+
+The following table summarizes the tools and libraries required to build.
+
+| Dep          | Min. version  | Vendored | Debian/Ubuntu pkg    | Arch pkg     | Void pkg           | Fedora pkg          | Optional | Purpose         |
+| ------------ | ------------- | -------- | -------------------- | ------------ | ------------------ | ------------------- | -------- | --------------- |
+| GCC          | 11             | NO       | `build-essential`    | `base-devel` | `base-devel`       | `gcc`               | NO       |                 |
+| CMake        | 3.18           | NO       | `cmake`              | `cmake`      | `cmake`            | `cmake`             | NO       |                 |
+| Boost        | 1.79          | NO       | `libboost-all-dev`   | `boost`      | `boost-devel`      | `boost-devel`       | NO       | C+
+
+
+### Cloning the repository
+
+Clone recursively to pull-in needed submodule(s):
+
+```
+git clone --recursive https://github.com/qryptic/qryptic
+```
+
+If you already have a repo cloned, initialize and update:
+
+```
+cd qryptic && git submodule init && git submodule update
+```
+
+*Note*: If there are submodule differences between branches, you may need 
+to use `git submodule sync && git submodule update` after changing branches
+to build successfully.
+
+### Build instructions
 
 Todo...
 
@@ -26,7 +83,7 @@ If you would like to contribute to this project there is two ways:
 - Send a pull request
 - Donate to our BTC/ETH address
 
-### Pull request
+### Pull Request
 
 We appreciate all contributions whether it be small changes such as documentation of source code to major improvement of code. The easiest way is to make a fork and then make a pull request into our develop branch. To make the PR go through make sure to include this information:
 
