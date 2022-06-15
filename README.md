@@ -1,6 +1,4 @@
-# Qryptic 
- 
-![alt text](qryptic-logo.png "Qryptic")
+# <img src="qryptic_square_logo.png" alt="Qryptic" width="40" height="40" /> Qryptic [![issues](https://img.shields.io/github/issues/qryptic/qryptic.svg)](https://github.com/qryptic/qryptic/issues) [![pull-requests](https://img.shields.io/github/issues-pr/qryptic/qryptic.svg)](https://github.com/qryptic/qryptic/pulls) [![contributors](https://img.shields.io/github/contributors/qryptic/qryptic.svg)](https://github.com/qryptic/qryptic/graphs/contributors) [![license](https://img.shields.io/github/license/qryptic/qryptic.svg)](https://github.com/qryptic/qryptic/blob/main/LICENSEs)
 
 ## About
 Qryptic is a desktop client to get real time market data of different crypto currencies.
@@ -46,6 +44,14 @@ Extra details?
 BTC: bc1ql97dlhhexma7agkk7gmg76t7ljycuqc9xgr4vl
 
 ETH: 0x03A049028B673Cc5EF676695f442eC5614877335
+
+## Contributors
+
+The following contributors have either helped to start this project, have contributed
+code, are actively maintaining it (including documentation), or in other ways
+being awesome contributors to this project.
+
+[<img src="https://github.com/mjovanc.png?size=72" alt="mjovanc" width="72">](https://github.com/mjovanc)
 
 ## License
 
