@@ -22,9 +22,9 @@ Qryptic is a desktop client to get real time market data of different crypto cur
 
 - Web: qryptic.net
 - Mail: mjovanc@protonmail.com
-- GitHub: https://github.com/qryptic/qryptic
-- Hugin: qryptic channel on Hugin Messenger
-- It is HIGHLY recommended to join our channel on Hugin Messenger if you want to contribute to stay up to date on what is happening on the project.
+- GitHub: https://github.com/qryptic
+- Hugin: qryptic board on Hugin Messenger
+- It is HIGHLY recommended to join our board on Hugin Messenger if you want to contribute to stay up to date on what is happening on the project.
 
 ## Technologies
 
