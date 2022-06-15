@@ -97,6 +97,8 @@ This PR has been tested using (e.g. Unit Tests, Manual Testing):
 Extra details?
 ```
 
+**NOTE:** If you want to a major contribution of code make sure to first send pull request to the diagrams submodule repo so we can review it before so we all can avoid spending uncessary time reviewing or coding if we decide it should be designed slight differently. 
+
 ### Donate
 
 BTC: bc1ql97dlhhexma7agkk7gmg76t7ljycuqc9xgr4vl
